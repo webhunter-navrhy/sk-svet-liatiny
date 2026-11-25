@@ -123,3 +123,7 @@ h1 { font-size: clamp(2.4rem, 1.6rem + 3.6vw, 4.6rem); letter-spacing: -0.01em; 
   .hlavicka .wrap { min-height: 3.75rem; flex-wrap: nowrap; }
   .hlavicka .logo img { height: 36px; }
 }
+
+.hlavicka nav a:last-child { background: var(--accent); color: var(--iron); padding: .4rem 1.1rem; font-weight: 600; }
+.hlavicka nav a:last-child:hover { color: var(--iron); filter: brightness(1.1); }
+.kat li:last-child img { aspect-ratio: 4/3; object-fit: contain; background: #fff; }

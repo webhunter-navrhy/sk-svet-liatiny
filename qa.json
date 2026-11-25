@@ -2,7 +2,10 @@
   "url": "https://webhunter-navrhy.github.io/sk-svet-liatiny/",
   "ok": true,
   "chyby": [],
-  "varovani": [],
+  "varovani": [
+    "Roztažené fotky >1,3× (mobil, 1): img/p10-500.webp nat 500 px, vykresleno 716 px (1.43×)",
+    "Dotykové cíle <40 px na mobilu: 1× (např. a.logo \"\" 145×36)"
+  ],
   "metriky": {
     "sirky": {
       "1440": {
@@ -30,18 +33,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.36,
+    "preneseno_PC_MB": 0.45,
     "nejvetsi_obrazek_PC": {
-      "kB": 51,
+      "kB": 52,
       "url": "https://webhunter-navrhy.github.io/sk-svet-liatiny/img/predajna-640.webp"
     },
     "snimku_PC": 4,
-    "preneseno_mobil_MB": 0.39,
+    "preneseno_mobil_MB": 0.6,
     "nejvetsi_obrazek_mobil": {
       "kB": 87,
       "url": "https://webhunter-navrhy.github.io/sk-svet-liatiny/img/predajna-985.webp"
     },
-    "snimku_mobil": 5,
+    "snimku_mobil": 6,
     "seo": {
       "title": "Svet liatiny – liatinové dvierka, kachle a krby, Lužice u Hodonína",
       "description": "Liatinové dvierka, rúry, kachle, krby a sporáky. Predajňa v Lužiciach u Hodonína a ucelená ponuka li",
@@ -56,12 +59,12 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 0,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Fraunces",
     "font_text": "Figtree",
     "podstranky": {
       "stranek": 1,
-      "obrazku": 13
+      "obrazku": 21
     }
   }
 }

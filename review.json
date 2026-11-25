@@ -1,16 +1,17 @@
 {
-  "znamka": 6,
+  "znamka": 7,
   "slabiny": [
-    "Sekce Predajňa (#predajna) znovu ukazuje stejnou fotku showroomu jako hero, takže fotka je na stránce dvakrát a ostatní fotky klienta zůstaly nevyužité. Oprava: do hero dát foto-01 (showroom s točitým schodištěm) přes celou šířku jako velký obraz s nadpisem a do sekce Predajňa dát foto-03 až foto-05, případně mozaiku 2–3 fotek z prodejny.",
-    "Sekce Sortiment („Z čoho sa stavia teplo“) má na PC jen 4 textové položky ve dvou sloupcích a pod nimi velkou prázdnou béžovou plochu, takže působí jako výpis bez obrazu. Oprava: ke každé kategorii dát fotku z podkladů (Krby a kachle = štít IRIS, Udiarne a grily = foto-02 venkovní ohniště s liatinovými dvířky, Kotly a pece = dvířka IZABELA, Kachle a sporáky = Verona XXL), napojit je na odpovídající produkty v Z ponuky a zmenšit spodní padding.",
-    "Hlavička na mobilu (390 i 360 px) zalamuje 4 odkazy do dvou řádků vedle loga. Je vysoká, nesouměrná a nemá výraznou akci. Oprava: na mobilu dát hamburger, nebo vedle loga nechat jen oranžové tlačítko „Kontakt“. Na PC přidat do hlavičky vpravo oranžové CTA „Napísať nám“ nebo klikací telefon, ať je kontakt vidět hned."
+    "Hlavička na PC (1440/1280): oranžové CTA vpravo z minulé výtky pořád chybí, jsou tam jen 4 malé textové odkazy. Na mobil se oprava (oranžové „Kontakt“) dostala, na PC ne. Oprava: za odkaz „Kontakt“ přidat oranžové tlačítko „Napísať nám“ (kotva na #kontakt) nebo klikací telefon +421 904 801 291, ve stejném stylu jako mobilní tlačítko.",
+    "Sekce Predajňa: nadpis „Najväčšia predajňa v regióne“, věta „Najširšia ponuka kachlí a sporákov na južnej Morave“ a místo „Lužice u Hodonína“ v brief.json nejsou (adresa je v poli „chybi“). Oprava: ověřit je proti textu slideru na svet-liatiny.sk. Když tam doslova nejsou, superlativy nahradit věcným „Naša predajňa“ a adresu uvést jen tehdy, když je doložená.",
+    "Sortiment, karta „Kotly a pece“: fotka HETA Scan-Line (p10-500.webp) je na mobilu zvětšená 1,43× (podle QA) a ukazuje hotová kamna, ne liatinové součásti ke kotlům. Stejný výrobek je navíc v Z ponuky. Oprava: dát sem dvířka IZABELA (foto-09) podle minulé výtky, nebo omezit šířku obrázku na ≤ 1,3× jeho velikosti, a ostatní karty nechat beze změny."
   ],
   "zavazne": [],
   "silne": [
-    "Je tu klientovo logo (plamen) a jeho oranžová #d57d00. Tmavé pozadí má oporu v oboru (liatina, oheň) i v logu, které má bílý text.",
-    "Obsah je pravdivý: tvrzení „Najväčšia predajňa v regióne“ a „Lužice u Hodonína“ pochází doslova z klientova slideru (foto-01) a produkty jsou skutečné položky z jeho e-shopu s přesnými názvy.",
-    "QA je čisté (nic nepřetéká na 6 šířkách, 0,36 MB) a kontakt na e-mail i telefon je klikací. Sekce Z ponuky s produkty na bílých kartách je přehledná."
+    "Výtka k fotce dvakrát je opravená. Hero ukazuje bílá kamna v interiéru a Predajňa má vlastní fotku showroomu s točitým schodištěm, takže se žádná fotka neopakuje.",
+    "Sortiment „Z čoho sa stavia teplo“ má teď u každé kategorie skutečnou fotku klienta (zelené kachle, venkovní pec z cihel, sporák, kamna) a spodní prázdná plocha zmizela.",
+    "Hlavička na mobilu je opravená: logo vlevo a oranžové tlačítko „Kontakt“ v jednom řádku. Nic nepřetéká na žádné ze 6 šířek.",
+    "Brand drží: oranžová z loga jako jediný akcent, tmavá barva je odůvodněná tématem litiny a ohně. Fraunces s Figtree mají správnou diakritiku (ľ, ť, ň) a Z ponuky ukazuje skutečné produkty s jejich názvy."
   ],
-  "verdikt": "Návrh je korektní a v brandu klienta, ale skladba je generická šablona (split hero, textový výpis, mřížka karet, text+fotka, formulář) a jednu fotku používá dvakrát. Chybí silný obraz a výraznější koncept, proto opravit: velký hero se showroomem, fotky ke kategoriím a lepší mobilní hlavička.",
-  "_hash": "80e1115e67e9f004dfdd3bb63cfc225ab4261805"
+  "verdikt": "Všechny tři minulé výtky jsou opravené až na CTA v hlavičce na PC. Web je čistý, používá fotky klienta, nic nepřetéká a závažnou vadu nemá. Na 8 chybí tlačítko v hlavičce na PC, ověřit superlativy v sekci Predajňa a opravit zvětšenou fotku v kartě Kotly a pece.",
+  "_hash": "4a0851a0554afbc32c477a7966817b2f76bdaf0d"
 }
