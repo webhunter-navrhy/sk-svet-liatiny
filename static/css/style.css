@@ -110,3 +110,16 @@ h1 { font-size: clamp(2.4rem, 1.6rem + 3.6vw, 4.6rem); letter-spacing: -0.01em; 
 .kontakt-r a { text-decoration-color: var(--accent); text-underline-offset: 4px; }
 .formular input, .formular textarea { background: #fff; border-radius: 2px; }
 .paticka { background: var(--iron); color: #c9bfb4; padding-block: 2rem; font-size: var(--step--1); }
+
+.kat li { border-bottom: 0; padding: 0 0 1rem; }
+.kat { border-top: 0; gap: 2rem; }
+.kat img { width: 100%; aspect-ratio: 4/3; object-fit: cover; object-position: 50% 40%; margin-bottom: 1rem; border-radius: 2px; }
+.hero-foto img { aspect-ratio: 4/3.4; object-position: 50% 50%; }
+.hero { padding-block: clamp(1.5rem, 4vw, 4rem); }
+.sekce { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
+@media (max-width: 40rem) {
+  .hlavicka nav a:not(:last-child) { display: none; }
+  .hlavicka nav a:last-child { background: var(--accent); color: var(--iron); padding: .4rem 1rem; font-weight: 600; }
+  .hlavicka .wrap { min-height: 3.75rem; flex-wrap: nowrap; }
+  .hlavicka .logo img { height: 36px; }
+}
