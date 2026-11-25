@@ -1,0 +1,73 @@
+{% extends "_base.html" %}
+{% set titulek = 'Svet liatiny – liatinové dvierka, kachle a krby, Lužice u Hodonína' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Český predajca liatiny</p>
+      <h1>Liatina pre kachle, krby a&nbsp;sporáky</h1>
+      <p class="lead">Ponúkame ucelenú ponuku sortimentu liatiny pre stavbu alebo opravu kachlí a krbov. S výberom Vám radi poradíme.</p>
+      <div class="cta"><a class="tlacitko" href="#ponuka">Pozrieť ponuku</a><a class="tlacitko druhe" href="#kontakt">Napísať nám</a></div>
+    </div>
+    <div class="hero-foto">{{ img('predajna.jpg', 'Predajňa Svet liatiny s kachľami a točitým liatinovým schodiskom', sizes='(min-width: 60rem) 40rem, 100vw') }}</div>
+  </div>
+</section>
+
+<section class="sekce" id="sortiment">
+  <div class="wrap">
+    <h2>Z čoho sa stavia teplo</h2>
+    <p class="uvod">Naše produkty zo šedej liatiny sú určené do krbov, kachlí, udiarní, grilov a kotlov.</p>
+    <ul role="list" class="kat">
+      <li><h3>Krby a kachle</h3><p>Dvierka, kachľové štíty a príslušenstvo pre stavbu alebo opravu.</p></li>
+      <li><h3>Udiarne a grily</h3><p>Dvierka pecové a udiarenské, rúry a doplnky z liatiny.</p></li>
+      <li><h3>Kotly a pece</h3><p>Liatinové súčasti pre kotly a pece.</p></li>
+      <li><h3>Kachle a sporáky</h3><p>Hotové kachle a sporáky, napríklad Verona, Debby či HETA Scan-Line.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="ponuka">
+  <div class="wrap">
+    <h2>Z ponuky</h2>
+    <p class="uvod">Ukážka z toho, čo nájdete u nás. Celý sortiment Vám radi predstavíme.</p>
+    <ul role="list" class="produkty">
+      {% set p = [
+        ('p06.jpg','Dvierka pecové, udiarenské ANTIK, malé čierne'),
+        ('p09.jpg','Liatinové dvierka IZABELA, popolníkové'),
+        ('p15.jpg','Liatinové kachľové dvierka MANUEL, čierna'),
+        ('p14.jpg','Liatinový kachľový štít IRIS'),
+        ('p08.jpg','Kachle Verona XXL Petra'),
+        ('p12.jpg','Debby'),
+        ('p10.jpg','HETA Scan-Line 805 Aqua'),
+        ('p07.jpg','Lampa C 10, 1,92 m'),
+        ('p11.jpg','Lampa na stenu G 01, 0,47 m'),
+        ('p13.jpg','Rohožka liatinová s kefou')] %}
+      {% for f, n in p %}<li>{{ img(f, n, sizes='(min-width: 60rem) 14rem, 45vw') }}<h3>{{ n }}</h3></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="predajna">
+  <div class="wrap dva">
+    <div>
+      <h2>Najväčšia predajňa v&nbsp;regióne</h2>
+      <p>Najširšia ponuka kachlí a sporákov na južnej Morave v Českej republike. Navštívte nás v našej predajni v Lužiciach u Hodonína.</p>
+      <p class="malo">Individuálne potreby zákazníkov sú našou prioritou.</p>
+    </div>
+    <div class="foto-pas">{{ img('predajna.jpg', 'Interiér predajne', sizes='(min-width: 60rem) 36rem, 100vw') }}</div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Kontakt</h2>
+      <p>Ozvite sa nám, s výberom radi poradíme.</p>
+      <p class="kontakt-r"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:+421904801291">{{ site.kontakt.telefon }}</a></p>
+      <p class="malo">Svet liatiny, IČO {{ site.ico }}</p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

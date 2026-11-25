@@ -1,0 +1,251 @@
+{
+ "slug": "sk-svet-liatiny",
+ "zdroj_url": "https://svet-liatiny.sk",
+ "firma": "Svet liatiny",
+ "obor": [
+  "účetnictví a daně",
+  "stavebnictví a řemesla"
+ ],
+ "ico": "45978328",
+ "ares": {
+  "chyba": "ARES HTTP 404"
+ },
+ "kontakty": {
+  "emaily": [
+   "info@svet-liatiny.sk"
+  ],
+  "telefony": [
+   "+421 904 801 291",
+   "202317003"
+  ],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.jpg",
+  "zdroj": "https://svet-liatiny.sk/img/logo-1758555842.jpg",
+  "rozmery": [
+   506,
+   126
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#e57c41",
+   "#5bc0de",
+   "#5cb85c",
+   "#8ca757",
+   "#ec4249",
+   "#31708f"
+  ],
+  "z_loga": [
+   "#d57d00"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#d57d00",
+   "#e57c41",
+   "#5bc0de"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://svet-liatiny.sk/modules/soyresponsiveslider/images/db3ffcfe38760eed38d2240124d921e51eaad261_slide3a.jpeg",
+   "sirka": 2545,
+   "vyska": 700,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://svet-liatiny.sk/modules/soyresponsiveslider/images/993c8b0621d839836471ecbce63fe110df4bf16d_slide1.jpeg",
+   "sirka": 2545,
+   "vyska": 700,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://svet-liatiny.sk/modules/soyresponsiveslider/images/2cf1cb2795327f7c93a078bb02dc2e92b7f714c3_slide5.jpeg",
+   "sirka": 2545,
+   "vyska": 700,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://svet-liatiny.sk/modules/soyresponsiveslider/images/56ac2f3fe3c3e86bd2aa30bdd2d9a3363811f282_slide2.jpeg",
+   "sirka": 2545,
+   "vyska": 700,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://svet-liatiny.sk/modules/soyresponsiveslider/images/aeb14d1dcf8735c7ab461dc1651b9bd90822be86_slide4.jpeg",
+   "sirka": 2545,
+   "vyska": 700,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "https://svet-liatiny.sk/2302-home_default/dvierka-pecove-udiarenske-antik-maly-cierny.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Dvierka pecové, udiarenské - ANTIK-malý-čierny"
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://svet-liatiny.sk/3982-home_default/lampa-c-10-192-m.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Lampa C 10 - 1,92 m"
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://svet-liatiny.sk/7932-home_default/verona-xxl-petra.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Verona XXL Petra"
+  },
+  {
+   "soubor": "podklady/foto/foto-09.jpg",
+   "url": "https://svet-liatiny.sk/3770-home_default/liatinove-dvierka-izabela-popolnikove-6440180mm.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Liatinové dvierka IZABELA - popolníkové 6440*180mm"
+  },
+  {
+   "soubor": "podklady/foto/foto-10.jpg",
+   "url": "https://svet-liatiny.sk/10685-home_default/heta-scan-line-805-aqua-mastenec-horna-a-predna-cast.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Scan-Line 805 Aqua"
+  },
+  {
+   "soubor": "podklady/foto/foto-11.jpg",
+   "url": "https://svet-liatiny.sk/4089-home_default/lampa-na-stenu-g-01-047m.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Lampa na stenu G 01- 0,47m"
+  },
+  {
+   "soubor": "podklady/foto/foto-12.jpg",
+   "url": "https://svet-liatiny.sk/7974-home_default/debby.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Debby"
+  },
+  {
+   "soubor": "podklady/foto/foto-13.jpg",
+   "url": "https://svet-liatiny.sk/1432-home_default/rohozka-liatinova-s-kefou.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Rohožka liatinová - s kefou"
+  },
+  {
+   "soubor": "podklady/foto/foto-14.jpg",
+   "url": "https://svet-liatiny.sk/1848-home_default/liatinovy-kachlovy-stit-iris.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Liatinový kachľový štít - IRIS"
+  },
+  {
+   "soubor": "podklady/foto/foto-15.jpg",
+   "url": "https://svet-liatiny.sk/1959-home_default/liatinove-kachlove-dvierka-manuel-cierna.jpg",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": "Liatinové kachľové dvierka MANUEL - čierna"
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Svet liatiny - český predajca",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Vitajte na našich stránkach",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Dvierka pecové, udiarenské - ANTIK-malý-čierny",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Lampa C 10 - 1,92 m",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Verona XXL Petra",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Liatinové dvierka IZABELA - popolníkové 6440*180mm",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "HETA - Scan-Line 805 Aqua - mastenec - horná a predná časť",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Lampa na stenu G 01- 0,47m",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Debby",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Rohožka liatinová - s kefou",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Liatinový kachľový štít - IRIS",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Liatinové kachľové dvierka MANUEL - čierna",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Špičková kvalita",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Sme tu pre Vás",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ponúkame ucelenú ponuku, s výberom vám radi poradíme.",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Individuálne potreby zákazníkov sú našou prioritou.",
+   "zdroj": "https://svet-liatiny.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Prihlásenie existujúceho zákazníka Prihlásenie do účtu",
+   "zdroj": "https://svet-liatiny.sk/"
+  }
+ ],
+ "chybi": [
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Ponúkame ucelenú ponuku sortimentu liatiny pre stavbu alebo opravu kachlí a krbov. Naše produkty zo šedej liatiny sú určené do krbov, kachlí, udiarní, grilov a kotlov."
+}

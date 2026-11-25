@@ -1,0 +1,26 @@
+{
+  "slug": "sk-svet-liatiny",
+  "nazev": "Svet liatiny",
+  "url": "https://webhunter-navrhy.github.io/sk-svet-liatiny/",
+  "base": "/sk-svet-liatiny/",
+  "lang": "sk",
+  "popis": "Liatinové dvierka, rúry, kachle, krby a sporáky. Predajňa v Lužiciach u Hodonína a ucelená ponuka liatiny pre stavbu alebo opravu kachlí a krbov.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "predajna.jpg",
+  "logo": "logo.png",
+  "theme_color": "#1d1a18",
+  "typ": "LocalBusiness",
+  "ico": "45978328",
+  "kontakt": {"email": "info@svet-liatiny.sk", "telefon": "+421 904 801 291", "adresa": {"ulice": "", "psc": "", "mesto": "Lužice u Hodonína", "zeme": "CZ"}},
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Dopyt z webu"},
+  "nav": [
+    {"text": "Sortiment", "href": "#sortiment"},
+    {"text": "Z ponuky", "href": "#ponuka"},
+    {"text": "Predajňa", "href": "#predajna"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}
