@@ -8,14 +8,14 @@
       if (f.querySelector('.past input').value) { e.preventDefault(); return; }   // robot
       if (demo || !endpoint) {
         e.preventDefault();
-        stav.textContent = 'Ukázka formuláře: nic se neodesílá. Po spuštění webu bude zpráva doručena na e-mail firmy.';
+        stav.textContent = 'Ukážka formulára: nič sa neodosiela. Po spustení webu príde správa na e-mail firmy.';
         return;
       }
       e.preventDefault();
-      stav.textContent = 'Odesílám…';
+      stav.textContent = 'Odosielam…';
       fetch(endpoint, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
-        .then(function (r) { if (!r.ok) throw new Error(r.status); f.reset(); stav.textContent = 'Děkujeme, zpráva byla odeslána.'; })
-        .catch(function () { stav.textContent = 'Odeslání se nepodařilo. Napište nám prosím e-mailem.'; });
+        .then(function (r) { if (!r.ok) throw new Error(r.status); f.reset(); stav.textContent = 'Ďakujeme, správa bola odoslaná.'; })
+        .catch(function () { stav.textContent = 'Odoslanie sa nepodarilo. Napíšte nám prosím e-mailom.'; });
     });
   });
 })();

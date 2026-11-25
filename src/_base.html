@@ -21,11 +21,11 @@
 {% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
 </head>
 <body>
-<a class="skip" href="#obsah">Přeskočit na obsah</a>
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
 <header class="hlavicka">
   <div class="wrap">
     <a href="{{ url('') }}" class="logo">{% if site.logo %}<img src="{{ base }}{{ site.logo }}" alt="{{ site.nazev }}" height="40">{% else %}{{ site.nazev }}{% endif %}</a>
-    <nav aria-label="Hlavní">
+    <nav aria-label="Hlavné">
       {% for n in site.nav %}<a href="{{ n.href if n.href.startswith(('#', 'http', 'tel:', 'mailto:')) else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
   </div>
